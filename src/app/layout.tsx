@@ -1,5 +1,5 @@
 import { Noto_Sans_JP } from 'next/font/google'
-import Navbar from './components/Navbar'
+import Navbar from './Navbar'
 import './globals.css'
 
 const notoSansJP = Noto_Sans_JP({ 
@@ -8,7 +8,7 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata = {
-  title: "Feuter's Analysis",
+  title: "Feuter capitis",
   description: 'Stock analysis and picking tools',
 }
 
